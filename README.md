@@ -5,4 +5,4 @@ to show the process of building a playlist out of [my top spotify artists graph]
 
 It also uses d3 v4 and [d3.legend](http://d3-legend.susielu.com/)
 
-You can see a running demo [here]()
+You can see a running demo [here](https://ss1993.github.io/building-playlists/)
