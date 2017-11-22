@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Scrolling Sections</title>
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <title>Building Playlists - A MST approach</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
+
 <body>
-<div class="container">
-  <div id='graphic'>
-    <div id='sections'>
-      <section class="step">
-        <div class="title">How can I make a playlist of my favorite artists sorted by similarity?</div>
-        Let's start by taking a look at how they are connected by genre or by Spotify's related artists. Just scroll :)
-      </section>
-      <section class="step">
-        <div class="title">My top 50 artists music graph</div>
-        We can see that I have two big groups of music and how they are connected. Electronic music at the left, and Hip Hop at the right
-        <br>Pharrell Williams joins these two worlds together. What if we make the Minimum Spanning Tree with him as the root?
-      </section>
-      <section class="step">
-        <div class="title">The tree</div>
-        Now that we have the tree with him as the root, the two big branches of music that grow from Pharrell are evident.
-        Let's make a post order traversal of the tree and see what we get.
-      </section>
-      <section class="step">
-        <div class="title">Tree post order traversal</div>
-        We can see that artists that are related to each other appear near in the list and we are able to achieve a smooth shift from hip hop to electronic music.
-        We are just missing the names for each artist..
-      </section>
-      <section class="step">
-        <div class="title">Coool!</div>
-        So now we have it! At the right you can see the artists' names, in the desired order. Making a playlist out of this list is easy,
-        we just have to take the songs from each artist that are in my library and sort them in this order, but we will leave that for another day.
-        <div class="title">I hope you enjoyed it!</div>
-      </section>
-    </div>
-    <div id='vis'>
-    </div>
-    <div id="extra-space">
+  <div class="container">
+    <div id="graphic">
+      <div id="sections">
+        <section class="step">
+          <div class="title">How can I make a playlist of my favorite artists sorted by similarity?</div>
+          Let"s start by taking a look at how they are connected by genre or by Spotify"s related artists. Just scroll :)
+        </section>
+        <section class="step">
+          <div class="title">My top 50 artists music graph</div>
+          We can see that I have two big groups of music and how they are connected. Electronic music at the left, and Hip Hop at the right
+          <br>Pharrell Williams joins these two worlds together. What if we make the Minimum Spanning Tree with him as the root?
+        </section>
+        <section class="step">
+          <div class="title">The tree</div>
+          Now that we have the tree with him as the root, the two big branches of music that grow from Pharrell are evident. Let"s make a post order traversal of the tree and see what we get.
+        </section>
+        <section class="step">
+          <div class="title">Tree post order traversal</div>
+          We can see that artists that are related to each other appear near in the list and we are able to achieve a smooth shift from hip hop to electronic music. We are just missing the names for each artist..
+        </section>
+        <section class="step">
+          <div class="title">Coool!</div>
+          So now we have it! At the right you can see the artists" names, in the desired order. Making a playlist out of this list is easy, we just have to take the songs from each artist that are in my library and sort them in this order, but we will leave that
+          for another day.
+          <div class="title">I hope you enjoyed it!</div>
+        </section>
+      </div>
+      <div id="vis">
+      </div>
+      <div id="extra-space">
+      </div>
     </div>
   </div>
-</div>
 
 
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
-<script src="js/scroller.js"></script>
-<script src="js/sections.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+  <script src="js/scroller.js"></script>
+  <script src="js/sections.js"></script>
 </body>
+
 </html>
